@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.example.example.ColorPickerView
+        android:id="@+id/color_picker_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <!-- thumb 可被定制 -->
+
+        <ImageView
+            android:id="@+id/img_color_picker"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/color_picker_bg" />
+
+        <FrameLayout
+            android:id="@+id/frameLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="50dp" >
+
+            <TextView
+                android:id="@+id/tv_dialog_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/icon_close_seekarc_dialog" />
+        </FrameLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_color_illumination"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/illumination_light"
+            android:visibility="gone" >
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/card_lighting" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" >
+
+            <View
+                android:id="@+id/view_color"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/shape_card_light_off" />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/card_lighting" />
+        </RelativeLayout>
+    </com.example.example.ColorPickerView>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp" >
+
+        <TextView
+            android:id="@+id/tv_dialog_lightName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RGB彩灯"
+            android:textColor="#7FFFFFFF"
+            android:textSize="30sp" />
+    </FrameLayout>
+
+</RelativeLayout>

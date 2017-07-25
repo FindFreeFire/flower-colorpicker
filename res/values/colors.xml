@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="card_light_off">#b4b4b4</color>
+    <color name="white">#ffffffff</color>
+    <color name="send_data_progress_bg">#00ffffff</color>
+    <color name="picker_purple">#5f1e7d</color>
+    <color name="picker_magenta">#aa3080</color>
+    <color name="picker_red">#c82e0d</color>
+    <color name="picker_orange">#e0560f</color>
+    <color name="picker_citrus">#de8812</color>
+    <color name="picker_lemon">#e6b615</color>
+    <color name="picker_yellow">#edd618</color>
+    <color name="picker_grass">#adbd1b</color>
+    <color name="picker_tree">#3a7f32</color>
+    <color name="picker_sky">#20879f</color>
+    <color name="picker_sea">#3056bd</color>
+</resources>
