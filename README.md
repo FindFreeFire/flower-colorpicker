@@ -6,3 +6,6 @@
 
 
 [点击下载 ColorPikcerDemo.apk](http://fir.im/ColorPickerDemo) 
+
+
+![Alt text](https://github.com/FindFreeFire/flower-colorpicker/blob/master/screenshots/Screenshot_20170726-005609.png)
